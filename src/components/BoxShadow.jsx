@@ -57,7 +57,7 @@ const BoxShadow = () => {
 
     return (
         <>
-            <main className={`${classes.main_container}`}>
+            <main className={classes.main_container}>
                 <section className={classes.section_settings_boxShadow}>
                     <div className={classes.box_settings}>
                         <div className={classes.container_backgroundColor_boxShadow}>
