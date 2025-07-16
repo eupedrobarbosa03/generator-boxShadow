@@ -1,0 +1,110 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: none;
+    user-select: none;
+}
+
+body {
+    background-color: #f8f8f8;
+    color: #080808;
+    transition: .5s;
+}
+
+.main_container {
+    display: flex;   
+    min-height: 100vh;
+    width: 100%;
+}
+
+.section_settings_boxShadow {
+    flex: 2;
+    padding: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.box_settings {
+    border: 1px solid #33333330;
+    border-radius: 5px;
+    flex: 1.5;
+    height: 500px;
+    padding: .5rem;
+}
+
+.container_backgroundColor_boxShadow,
+.container_borderRadius_boxShadow,
+.container_opacity_boxShadow,
+.container_border_boxShadow,
+.container_borderColor_boxShadow,
+.container_offSetX_boxShadow,
+.container_offSetY_boxShadow,
+.container_blurRadius_boxShadow,
+.container_shadowColor_boxShadow,
+.container_mode_boxShadow {
+    height: auto;
+    display: flex;
+    align-items: center;
+    padding-left: 40px;
+    gap: 10px;
+    margin: .8rem 0;
+}
+
+.input_color {
+    outline: none;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.container_backgroundColor_boxShadow p,
+.container_borderRadius_boxShadow p,
+.container_opacity_boxShadow p,
+.container_border_boxShadow p,
+.container_borderColor_boxShadow p,
+.container_offSetX_boxShadow p,
+.container_offSetY_boxShadow p,
+.container_blurRadius_boxShadow p,
+.container_shadowColor_boxShadow p,
+.container_mode_boxShadow p {
+    font-size: .8rem;
+    text-transform: uppercase;
+}
+
+.section_preview_boxShadow {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1.5rem;
+}
+
+.boxShadow {
+    height: 250px;
+    width: 250px;
+}
+
+button {
+    height: auto;
+    width: 70px;
+    padding: .5rem 0;
+    border-bottom: 1px solid #333333;
+    color: #000000;
+    cursor: pointer;
+    background-color: transparent;
+    font-size: .6rem;
+}
+
+input[type="button"] {
+    margin: 0 3.5rem;
+    background-color: #000000;
+    color: #f8f8f8;
+    height: 40px;
+    width: 70px;
+    padding: .2rem;
+    border: none;
+    cursor: pointer;
+}
